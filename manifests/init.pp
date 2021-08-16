@@ -8,6 +8,6 @@ class net_snmp_systemd_service_status
     content => template('net_snmp_systemd_service_status/systemd-service-status.py.erb'),
     owner   => root,
     group   => root,
-    mode    => 0755,
+    mode    => '0755',
   }
 }
